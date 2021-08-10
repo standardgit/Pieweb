@@ -67,6 +67,10 @@ article {
     width: 75%;
 }
 
+.columns {
+    display: flex;
+}
+
 
 @media only screen and (min-width: 768px)  {
 
@@ -77,4 +81,43 @@ article {
     aside {
         margin-left: 2%;
     }
+    .columns-desktop {
+        display: flex;
+    }
+}
+
+/* pies */
+
+.pie{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+}
+
+.pir img {
+    width: 100px;
+}
+
+.pie .title {
+    font-weight: bold;
+}
+
+.pie .columns {
+    width: 100px;
+}
+
+.pie .price {
+    text-align: right;
+}
+.pie .columnsdiv {
+    width: 50%;
+}
+.pie button {
+    background-color: #f6aeae;
+    padding: 10px;
+    border: solid 1px #f6aeae;
+    border-radius: 3px;
+    color: #ffffff;
 }
