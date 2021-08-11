@@ -96,7 +96,7 @@ article {
     border: solid 1px #ccc;
 }
 
-.pir img {
+.pie img {
     width: 100px;
 }
 
@@ -105,13 +105,14 @@ article {
 }
 
 .pie .columns {
-    width: 100px;
+    width: 100%;
+
 }
 
 .pie .price {
     text-align: right;
 }
-.pie .columnsdiv {
+.pie .columns div {
     width: 50%;
 }
 .pie button {
